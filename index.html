@@ -1,0 +1,20 @@
+<div class="app-container">
+  <h1>Find Your Table</h1>
+  <p>Enter your name to find your seating assignment.</p>
+  
+  <div class="search-box">
+    <input type="text" id="nameInput" placeholder="e.g., John">
+    <button onclick="findTable()">Search</button>
+  </div>
+
+  <!-- New container to hold the list of names if multiple are found -->
+  <div id="namePickerContainer" class="hidden">
+    <p>Multiple names found. Please tap yours:</p>
+    <div id="nameButtonsList"></div>
+  </div>
+
+  <div id="resultContainer" class="hidden">
+    <h2 id="tableNum"></h2>
+    <img id="mapImg" src="" alt="Seating Map">
+  </div>
+</div>
