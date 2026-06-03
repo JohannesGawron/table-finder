@@ -1,20 +1,32 @@
-<div class="app-container">
-  <h1>Find Your Table</h1>
-  <p>Enter your name to find your seating assignment.</p>
-  
-  <div class="search-box">
-    <input type="text" id="nameInput" placeholder="e.g., John">
-    <button onclick="findTable()">Search</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Find Your Table</h1>
+    <p>Enter your name to find your seating assignment.</p>
+
+    <div class="search-box">
+      <input type="text" id="nameInput" placeholder="e.g., John">
+      <button onclick="findTable()">Search</button>
+    </div>
+
+    <div id="namePickerContainer" class="hidden">
+      <p>Multiple names found. Please tap yours:</p>
+      <div id="nameButtonsList"></div>
+    </div>
+
+    <div id="resultContainer" class="hidden">
+      <h2 id="tableNum"></h2>
+      <img id="mapImg" src="" alt="Seating Map">
+    </div>
   </div>
 
-  <!-- New container to hold the list of names if multiple are found -->
-  <div id="namePickerContainer" class="hidden">
-    <p>Multiple names found. Please tap yours:</p>
-    <div id="nameButtonsList"></div>
-  </div>
-
-  <div id="resultContainer" class="hidden">
-    <h2 id="tableNum"></h2>
-    <img id="mapImg" src="" alt="Seating Map">
-  </div>
-</div>
+  <script src="script.js"></script>
+</body>
+</html>
