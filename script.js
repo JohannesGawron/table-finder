@@ -1,6 +1,6 @@
 // Expanded guest list with duplicates for testing
 const guests = [
-  { name: "Alice Smith", table: 3, map: "https://placehold.co/400x300/e3f2fd/0d47a1?text=Map:+Table+3+Highlighted" },
+  { name: "Nicbro Seeverse", table: 3, map: "https://placehold.co/400x300/e3f2fd/0d47a1?text=Map:+Table+3+Highlighted" },
   { name: "Alice Cooper", table: 1, map: "https://placehold.co/400x300/e8f5e9/1b5e20?text=Map:+Table+1+Highlighted" },
   { name: "John Doe", table: 5, map: "https://placehold.co/400x300/fbe9e7/d84315?text=Map:+Table+5+Highlighted" },
   { name: "John Wayne", table: 2, map: "https://placehold.co/400x300/fff3e0/e65100?text=Map:+Table+2+Highlighted" },
