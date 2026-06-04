@@ -14,7 +14,7 @@ const guests = [
   {"name": "Aurelia", "table": 3, "map": "images/Tischplan_highlight3.png"},
   {"name": "Benedikt", "table": 9, "map": "images/Tischplan_highlight9.png"},
   {"name": "Binia", "table": 10, "map": "images/Tischplan_highlight10.png"},
-  {"name": "Bruni", "table": 9, "map": "images/Tischplan_highlight9.png"},
+  {"name": "Brunhilde G.", "table": 9, "map": "images/Tischplan_highlight9.png"},
   {"name": "Carla", "table": 3, "map": "images/Tischplan_highlight3.png"},
   {"name": "Chris", "table": 10, "map": "images/Tischplan_highlight10.png"},
   {"name": "Christel", "table": 5, "map": "images/Tischplan_highlight5.png"},
@@ -28,13 +28,13 @@ const guests = [
   {"name": "Elsbeth", "table": 2, "map": "images/Tischplan_highlight2.png"},
   {"name": "Enrico", "table": 13, "map": "images/Tischplan_highlight13.png"},
   {"name": "Eric", "table": 13, "map": "images/Tischplan_highlight13.png"},
-  {"name": "Eva J.S.", "table": 4, "map": "images/Tischplan_highlight4.png"},
-  {"name": "Eva G.", "table": 6, "map": "images/Tischplan_highlight6.png"},
+  {"name": "Eva J.S.", "table": 6, "map": "images/Tischplan_highlight6.png"},
+  {"name": "Eva G.", "table": 4, "map": "images/Tischplan_highlight4.png"},
   {"name": "Felix (DJ)", "table": 1, "map": "images/Tischplan_highlight1.png"},
   {"name": "Felix E.", "table": 12, "map": "images/Tischplan_highlight12.png"},
   {"name": "Fiona", "table": 3, "map": "images/Tischplan_highlight3.png"},
   {"name": "Florian", "table": 7, "map": "images/Tischplan_highlight7.png"},
-  {"name": "Franzi", "table": 2, "map": "images/Tischplan_highlight2.png"},
+  {"name": "Franziska", "table": 2, "map": "images/Tischplan_highlight2.png"},
   {"name": "Friederike", "table": 10, "map": "images/Tischplan_highlight10.png"},
   {"name": "Gabe", "table": 11, "map": "images/Tischplan_highlight11.png"},
   {"name": "Gabor", "table": 5, "map": "images/Tischplan_highlight5.png"},
@@ -80,6 +80,7 @@ const guests = [
   {"name": "Myriam", "table": 10, "map": "images/Tischplan_highlight10.png"},
   {"name": "Nadia", "table": 10, "map": "images/Tischplan_highlight10.png"},
   {"name": "Natasha", "table": 13, "map": "images/Tischplan_highlight13.png"},
+  {"name": "Brunhilde F.", "table": 5, "map": "images/Tischplan_highlight5.png"},
   {"name": "Nelly", "table": 5, "map": "images/Tischplan_highlight5.png"},
   {"name": "Nico", "table": 3, "map": "images/Tischplan_highlight3.png"},
   {"name": "Nicola", "table": 7, "map": "images/Tischplan_highlight7.png"},
@@ -116,6 +117,8 @@ const guests = [
   {"name": "Yanna", "table": 6, "map": "images/Tischplan_highlight6.png"},
   {"name": "Yueheng", "table": 11, "map": "images/Tischplan_highlight11.png"},
 ];
+
+
 
 
 
