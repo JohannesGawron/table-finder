@@ -120,6 +120,7 @@ const guests = [
 
 
 
+
 function findTable() {
   const inputName = document.getElementById('nameInput').value.trim().toLowerCase();
   const namePickerContainer = document.getElementById('namePickerContainer');
